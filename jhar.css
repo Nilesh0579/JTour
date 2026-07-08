@@ -1,0 +1,236 @@
+/* Style for all ................................... */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    padding-top: 80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+hr{
+    width: 150px;
+    border: 1px solid black;
+}
+p{
+    line-height: 1.5rem;
+}
+/* For all div which conatin img......................................... */
+.dest{  
+    width: 300px;
+    height: 300px;
+    background-color:whitesmoke;
+    line-height: 2rem;
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+}
+/* Style header............................. */
+header{
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border: 2px solid green;
+}
+nav{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+    border-radius: 51px;
+    border: 2px solid greenyellow;
+}
+#hdiv2{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+/* Home page..................................... */
+.Home h1 {
+    font-size: 90px;
+    color: #fff;
+}
+.Home h3{
+    font-size: 40px;
+    color: #fff;
+}
+.hb1{
+    background-color: blue;
+    color: white;
+}
+.hb1, .hb2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+#hodiv0{
+    padding-left: 50px;
+    padding-top: 20px;
+    height: 100vh;
+    max-height: fit-content;
+    text-align: left;
+    background-image: url("images/chandil_dam.jpg");
+    background-size: cover;
+    backface-visibility: 0.7;
+}
+#hodiv0_1{
+    padding-top: 20px;
+    text-align: center;
+    color: darkblue;
+}
+#hodiv1{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* Abot page......................................... */
+.adiv0{
+    display: flex;
+    position: relative;
+    top: 50px;
+    justify-content: space-evenly;
+}
+.adiv1{
+    width: 40%;
+    padding: 20px;
+}
+.adiv1 h1{
+    font-size: 60px;
+    color: darkblue;
+}
+.adiv2{
+    width: 40%;
+    height: fit-content;
+}
+.adiv2 img{
+    width: 100%;
+}
+.adiv2 img, .adiv2{
+    border-radius: 8px;
+    border: 1.5px solid greenyellow;
+}
+#adivh2{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+.adiv0_1{
+    position: relative;
+    top: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+.adiv00{
+    line-height: 2rem;
+    width: 250px;
+    height: 150px;
+    border: 2px solid greenyellow ;
+}
+/* Explore page.................................................... */
+.Explore{
+    position: relative;
+    top: 20vh;
+    text-align: center;
+}
+.Explore h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(4, 4, 92);
+}
+.ExpB{
+    margin: 30px;
+    display: inline;
+    border-radius: 10px;
+    border: 2px solid greenyellow;
+    font-weight: bold;
+    font-size: large;
+}
+#destination{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: space-evenly;
+}
+.destimg{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+}
+/* Contact part...................................... */
+.Contact{
+    position: relative;
+    top: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#Cdiv{
+    font-size: x-large; 
+    width: 30%;
+}
+#Cdiv h1{
+    color: navy;
+}
+.hrid{
+    display: flex;
+    align-items: center;
+}
+#Cform{
+    background-color: whitesmoke;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+}
+#Cform label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#Cform textarea, .Cinput{
+    width: 90%;
+    padding: 12px;
+    border-radius: 5px;
+}
+/* footer part....................................... */
+footer{
+    position: relative;
+    top: 220px;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(2, 2, 119);
+    color: #fff;
+    justify-content: space-evenly;
+}
+.fdiv{
+    padding: 30px;
+    width: 150px;
+}
+.fdiv h3{
+    line-height: 3rem;
+}
+.fdiv a{
+    color: #fff;
+    line-height: 2.5rem;
+}
+.fdiv p{
+    line-height: 1.7rem;
+}

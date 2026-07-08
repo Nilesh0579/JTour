@@ -1,0 +1,47 @@
+#loginB{
+    background-image: url(images/background.jpeg);
+    background-size: cover;
+    margin-bottom: -150px;
+}
+#l_div{
+    margin-top: 200px;
+}
+#login h1{
+    font: size 90px;
+    font-weight: bold;
+    color: blue;
+    margin: 5px;
+}
+.form{
+    width: 400px;
+    height: 500px;
+    margin: 150px 0px 150px 0px;
+    font-size: larger;
+    padding: 60px;
+    background-color: white;
+}
+.form label{
+    display: block;
+    margin: 5px;
+    font-weight: bold;
+}
+#l_span{
+    display: block;
+    text-align: right;
+    color: blue;
+    margin: 5px;
+}
+.form button{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 40px;
+}
+.l_p{
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+}
