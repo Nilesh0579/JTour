@@ -20,12 +20,9 @@ let login_Fun=()=>{
         </form>
     </section>`;
 }
-
 let butt=document.querySelector("#login");
 butt.addEventListener("click", login_Fun);
 
-
-// Create new account......................................after click
 let create_New=()=>{
     document.querySelector("main").innerHTML=`
     <section class="adiv0" id="loginB">

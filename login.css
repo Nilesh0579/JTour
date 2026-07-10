@@ -13,11 +13,11 @@
     margin: 5px;
 }
 .form{
-    width: 400px;
-    height: 500px;
+    width: 450px;
+    height: 550px;
     margin: 150px 0px 150px 0px;
     font-size: larger;
-    padding: 60px;
+    padding: 25px;
     background-color: white;
 }
 .form label{
@@ -43,5 +43,5 @@
 .l_p{
     display: block;
     text-align: center;
-    margin-top: 60px;
+    margin-top:40px;
 }
