@@ -149,6 +149,8 @@ nav img{
     width: 250px;
     height: 150px;
     border: 2px solid greenyellow ;
+    border-radius: 20px;
+    text-align: center;
 }
 /* Explore page.................................................... */
 .Explore{
