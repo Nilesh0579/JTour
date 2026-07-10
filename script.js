@@ -47,6 +47,5 @@ let create_New=()=>{
             <button>Create</button>
             <p class="l_p">Already have an Account? <span onclick="login_Fun()">Login</span></p>
         </form>
-    </section>`
+    </section>`;
 }
-
