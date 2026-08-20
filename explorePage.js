@@ -50,7 +50,7 @@ let viewAll=()=>{
 }
 const view=document.querySelector("#all");
 view.addEventListener("click", viewAll);
-
+// all the waterfalls which are avilable in  jharkhand details are given belo:-
 let view_Waterfalls=()=>{
     document.querySelector("#destination").innerHTML=`
                 <div class="dest">
@@ -62,11 +62,16 @@ let view_Waterfalls=()=>{
                     <img src="images/Dassam_fall.avif" class="destimg">
                     <h4>Dassam Falls, Ranchi</h4>
                     <h5>From 1999/-</h5>
+                </div>
+                <div class="dest">
+                    <img src="images/sita-falls.jpg" class="destimg">
+                    <h4>Sita Falls, Giridih</h4>
+                    <h5>From 1999/-</h5>
                 </div>`;
 }
 const Water=document.querySelector("#Waterfall");
 Water.addEventListener("click", view_Waterfalls);
-
+// all the wildlife which are avilable in  jharkhand details are given belo:-
 let view_Wildelife=()=>{
     document.querySelector("#destination").innerHTML=`
     <div class="dest">
@@ -82,7 +87,7 @@ let view_Wildelife=()=>{
 }
 const Wild=document.querySelector("#Wilde");
 Wild.addEventListener("click", view_Wildelife);
-
+// all the Dams which are avilable in  jharkhand details are given belo:-
 let view_Dams=()=>{
     document.querySelector("#destination").innerHTML=`
                 <div class="dest">
@@ -97,7 +102,7 @@ let view_Dams=()=>{
                 </div>`;
 }
 const Dams=document.querySelector("#Dam").addEventListener("click", view_Dams);
-
+// all the Temples which are avilable in  jharkhand details are given belo:-
 let view_temples=()=>{
     document.querySelector("#destination").innerHTML=`
     <div class="dest">
@@ -113,6 +118,11 @@ let view_temples=()=>{
                 <div class="dest">
                     <img src="images/Jagannath2.jpg" class="destimg">
                     <h4>Jagannath Temple, Ranchi</h4>
+                    <h5>From 2499/-</h5>
+                </div>
+                <div class="dest">
+                    <img src="images/parasnath1.webp" class="destimg">
+                    <h4>Parasnath Temple, Girihid</h4>
                     <h5>From 2499/-</h5>
                 </div>`;
 }
